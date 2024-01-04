@@ -6,7 +6,7 @@ interface ContainerProps {
 
 export default function Container({ children }: ContainerProps) {
   return (
-    <div className="h-screen bg-zinc-950 overflow-y-auto">
+    <div>
       {children}
     </div>
   )
